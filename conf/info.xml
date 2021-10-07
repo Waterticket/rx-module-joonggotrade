@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="0.2">
+	<title xml:lang="ko">중고거래 모듈</title>
+	<description xml:lang="ko">중고거래 상태를 나타냅니다</description>
+	<version>1.0.0</version>
+	<date>2021-10-07</date>
+	<category>service</category>
+	<author email_address="matthew218@naver.com" link="https://hoto.dev">
+		<name xml:lang="ko">김영상</name>
+	</author>
+</module>
