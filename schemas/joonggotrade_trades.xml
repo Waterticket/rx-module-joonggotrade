@@ -1,0 +1,9 @@
+<table name="joonggotrade_trades">
+	<column name="document_srl" type="number" notnull="notnull" primary_key="primary_key" />
+	<column name="seller_srl" type="number" notnull="notnull" index="idx_seller_srl" />
+	<column name="buyer_srl" type="number" notnull="notnull" default="0" index="idx_buyer_srl" />
+	<column name="trade_price" type="number" notnull="notnull" />
+	<column name="trade_status" type="number" notnull="notnull" default="0" />
+	<column name="insert_time" type="number" notnull="notnull" index="idx_insert_time" />
+	<column name="update_time" type="number" notnull="notnull" index="idx_update_time" />
+</table>

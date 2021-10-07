@@ -8,6 +8,8 @@
 		<action name="procJoonggotradeAdminInsertConfig" type="controller" />
 		<!-- 일반 액션 -->
 		<action name="dispJoonggotradeIndex" type="view" index="true" />
+		<action name="procJoonggotradeChangeStatus" type="controller" standalone="true" method="GET|POST" />
+		<action name="procJoonggotradePeerEvaluation" type="controller" standalone="true" method="GET|POST" />
 	</actions>
 	<menus>
 		<menu name="joonggotrade" type="all">

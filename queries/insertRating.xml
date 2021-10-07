@@ -1,0 +1,12 @@
+<query id="insertRating" action="insert">
+	<tables>
+		<table name="joonggotrade_evaluation" />
+	</tables>
+	<columns>
+        <column name="giver" var="giver" notnull="notnull" />
+        <column name="receiver" var="receiver" notnull="notnull" />
+        <column name="star" var="star" notnull="notnull" />
+        <column name="document_srl" var="document_srl" notnull="notnull" />
+        <column name="insert_time" var="insert_time" notnull="notnull" />
+	</columns>
+</query>

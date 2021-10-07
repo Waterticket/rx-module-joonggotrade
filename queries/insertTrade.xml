@@ -1,0 +1,14 @@
+<query id="insertTrade" action="insert">
+	<tables>
+		<table name="joonggotrade_trades" />
+	</tables>
+	<columns>
+        <column name="document_srl" var="document_srl" notnull="notnull" />
+        <column name="seller_srl" var="seller_srl" notnull="notnull" />
+        <column name="buyer_srl" var="buyer_srl" notnull="notnull" default="0" />
+        <column name="trade_price" var="trade_price" notnull="notnull" />
+        <column name="trade_status" var="trade_status" notnull="notnull" default="200" />
+        <column name="insert_time" var="insert_time" notnull="notnull" />
+        <column name="update_time" var="update_time" notnull="notnull" />
+	</columns>
+</query>

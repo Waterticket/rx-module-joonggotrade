@@ -1,0 +1,12 @@
+<query id="getMyDocumentRating" action="select">
+	<tables>
+		<table name="joonggotrade_evaluation" />
+	</tables>
+	<columns>
+		<column name="*" />
+	</columns>
+	<conditions>
+		<condition operation="equal" column="document_srl" var="document_srl" notnull="notnull" />
+		<condition operation="equal" column="giver" var="giver" notnull="notnull" pipe="and" />
+	</conditions>
+</query>

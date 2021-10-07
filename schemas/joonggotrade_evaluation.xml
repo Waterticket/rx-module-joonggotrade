@@ -1,0 +1,8 @@
+<table name="joonggotrade_evaluation">
+	<column name="inc" type="number" notnull="notnull" primary_key="primary_key" auto_increment="auto_increment" />
+	<column name="giver" type="number" notnull="notnull" index="idx_giver_srl" />
+	<column name="receiver" type="number" notnull="notnull" index="idx_receiver_srl" />
+	<column name="star" type="number" notnull="notnull" />
+	<column name="document_srl" type="number" notnull="notnull" />
+	<column name="insert_time" type="number" notnull="notnull" index="idx_insert_time" />
+</table>

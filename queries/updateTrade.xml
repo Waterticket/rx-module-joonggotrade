@@ -1,0 +1,16 @@
+<query id="updateTrade" action="update">
+	<tables>
+		<table name="joonggotrade_trades" />
+	</tables>
+	<columns>
+        <column name="seller_srl" var="seller_srl" />
+        <column name="buyer_srl" var="buyer_srl" />
+        <column name="trade_price" var="trade_price" />
+        <column name="trade_status" var="trade_status" />
+        <column name="insert_time" var="insert_time" />
+        <column name="update_time" var="update_time" />
+	</columns>
+	<conditions>
+		<condition operation="equal" column="document_srl" var="document_srl" notnull="notnull" />
+	</conditions>
+</query>
